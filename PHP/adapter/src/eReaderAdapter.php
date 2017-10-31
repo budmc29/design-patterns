@@ -1,4 +1,5 @@
-<?php namespace Acme;
+<?php
+namespace Acme;
 
 
 class eReaderAdapter implements BookInterface
