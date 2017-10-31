@@ -7,7 +7,7 @@ abstract class Sub
     {
         return $this
             ->layBread()
-            ->addLetuce()
+            ->addLettuce()
             ->addPrimaryToppings()
             ->addSauces();
     }
@@ -19,7 +19,7 @@ abstract class Sub
         return $this;
     }
 
-    protected function addLetuce()
+    protected function addLettuce()
     {
         var_dump('add some lettuce');
 
